@@ -1,0 +1,54 @@
+.animate{
+    position: relative;
+    padding: 16px;
+    background: blue;
+    animation-name: test;
+    animation-duration: 10s;
+    color: #fff;
+    width: 256px;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+.animate:nth-of-type(2){
+    position: relative;
+    padding: 16px;
+    background: blue;
+    animation-name: test;
+    animation-duration: 10s;
+    color: #fff;
+    width: 256px;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 2s;
+}
+.animate:nth-of-type(3){
+    position: relative;
+    padding: 16px;
+    background: blue;
+    animation-name: test;
+    animation-duration: 10s;
+    color: #fff;
+    width: 256px;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 3s;
+}
+.animate:nth-of-type(4){
+    position: relative;
+    padding: 16px;
+    background: blue;
+    animation-name: test;
+    animation-duration: 10s;
+    color: #fff;
+    width: 256px;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 4s;
+    
+}
+@keyframes test{
+    0% {background: red; left: 100%;}
+    25% {background: yellow;}
+    50% {background: grey;}
+    75% {background: lightgreen;}
+    100% {background: red; left: 0%; }
+    
+}
